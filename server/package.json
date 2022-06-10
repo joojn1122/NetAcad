@@ -1,0 +1,19 @@
+{
+  "name": "NetAcadCheats",
+  "version": "1.0.0",
+  "description": "by joojn",
+  "main": "assets/updater.js",
+  "scripts": {
+    "start": "echo L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-html-parser": "^5.3.3",
+    "sync-fetch": "^0.4.1",
+    "translate": "^1.4.1"
+  }
+}

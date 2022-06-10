@@ -1,0 +1,20 @@
+{
+  "name": "Czech Translator",
+  "description": "Translates texts from english --by joojn :3",
+  "version": "1.2.3",
+  "manifest_version": 2,
+ 
+  "icons": { "16": "/images/smile.png",
+           "48": "/images/smile.png",
+          "128": "/images/smile.png" },
+
+  "permissions": ["activeTab"],
+  "content_scripts": [
+      {
+        "matches": [ 
+          "https://assessment.netacad.net/*"
+        ],
+        "js": ["inject.js"],
+        "css": ["styles.css"]
+      }]
+}

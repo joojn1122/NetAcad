@@ -1,0 +1,22 @@
+
+
+/*#cursor{
+	content : url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAABLCAMAAAA8q5XRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAYUExURQAAABoaGlZWVv///2xsbHNzczIyMgAAALWgxR4AAAAIdFJOU/////////8A3oO9WQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAATVJREFUSEuV1tGygyAMRVGk3Ov//3EFAiYkOUnzooU1e1rH0ZZy56f8oh+c1x2ndSlXvbK6lPppWd1xWg+c1RMnNeGcXjilN87oFyc0w7HmONQCR1riQB8Y6xNDrTDSGgNtYF9b2NUm9rSNHe1gW3vY1C62tI8NDbDWCCsN8akxPnSApY6w0CHmOsZMJ/CrM3jrFF46h0kn8dRZ/KnPG9DBrZ5zjTemjeeeGvtrVLq0YiT+o+O+WHIEbv+Nzuw0x09NfCDyDsP9R10w/eKRwumN5x5OL7w6ME14b8D0xCyC0gPzVZTuWBZAWv+hAulxL9E5jZ/WFqS1BWlNQdrCbtrGTtrEXtrBdtrGTtrDZtrBPN2fRbRIx3NYOsY73fqDa63RUc1McwpwT0sKcb/R5baP1Q153187Sj6oCNW4jAAAAABJRU5ErkJggg==');
+	width: 2.5vh;
+	aspect-ratio: 44/75;
+
+	position: fixed;
+	z-index: 100;
+}*/
+
+#insane_id{
+	position : absolute;
+    right : 0px; 
+    top : 0px; 
+    width : 100px;
+    height : 100px;
+    background : transparent;
+    outline : none;
+    border : none;
+    visibility : false;
+}
