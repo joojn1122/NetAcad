@@ -21,7 +21,10 @@ const run = () => {
     "ccna7.org" : ".entry-content",
     "ccnav7.net" : ".entry-content",
     "examict.com" : ".entry-content",
-   "premiumexam.net" : ".entry-content"
+    "premiumexam.net" : ".entry-content",
+    "infraexam.com" : ".entry-content",
+    "examans.com" : ".entry-content",
+    "ccna6rs.com" : ".entry-content"
   }
 
   const getAnswers = (links) => {
