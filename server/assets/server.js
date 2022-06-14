@@ -52,7 +52,7 @@ const run = () => {
 
 
   app.get('/search' , async (req, res) => {
-      let searchFor = req.query.q;
+      let searchFor = req.query.q.trim();
 
       console.log("Starting to search: " + searchFor)
 
@@ -68,7 +68,7 @@ const run = () => {
   });
 
   app.get('/api' , async (req, res) => {
-    let searchFor = req.query.q;
+    let searchFor = req.query.q.trim();
 
     console.log("Starting to search: " + searchFor)
     
