@@ -20,7 +20,8 @@ const run = () => {
     "itexam24.com" : ".entry-content",
     "ccna7.org" : ".entry-content",
     "ccnav7.net" : ".entry-content",
-    "examict.com" : ".entry-content"
+    "examict.com" : ".entry-content",
+   "premiumexam.net" : ".entry-content"
   }
 
   const getAnswers = (links) => {
