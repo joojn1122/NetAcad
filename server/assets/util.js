@@ -32,7 +32,12 @@ let parseWeb = (url, elementName) => {
 			let root = HTMLParser.parse(html)
 	  	
 	    let answerCont = root.querySelector(elementName)
-
+	    
+	    if(answerCont == null)
+	    {
+	    	return { data : null }
+	    }
+	    
 	    let uls = answerCont.querySelectorAll("ul")
 	    let imgs = answerCont.querySelectorAll("img")
 
