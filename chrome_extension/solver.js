@@ -2,7 +2,8 @@
   {
 
     // let url = "https://fakeGoogleTranslator.joojn.repl.co"
-    let url = "http://localhost:3000"
+    // let url = "http://localhost:3000"
+    let url = "http://gogletranslator.ddns.net"    
 
     this.question = document.querySelector(".question:not(.hidden)")
 
